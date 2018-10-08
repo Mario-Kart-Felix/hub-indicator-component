@@ -1,0 +1,42 @@
+.chart {
+  height: 400px;
+}
+
+#indicator-configuration {
+  width: 500px;
+  float: left;
+}
+.indicator-setting small {
+  font-size: 0.4em;
+  float: right;
+}
+label {
+  width: 300px;
+  display: inline-block;
+}
+input {
+  float: left;
+  font-size: 0.5em;
+  padding: 5px;
+  clear:both;
+  width: 100%
+}
+#indicator-metrics {
+  width: 600px;
+  float: right;
+}
+
+h4 {
+  margin: 10px 0 0 0;
+
+}
+input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  cursor:pointer;
+}
+input[type=submit]:hover {
+  background-color: #000099;
+  color: white;
+  cursor:pointer;
+}
