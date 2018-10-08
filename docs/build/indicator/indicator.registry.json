@@ -1,0 +1,15 @@
+{
+  "namespace": "indicator",
+  "fsNamespace": "indicator",
+  "loader": "../indicator.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "core": "indicator.core.js",
+  "components": {
+    "hub-indicator": {
+      "bundleIds": {
+        "$": "hub-indicator"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}
